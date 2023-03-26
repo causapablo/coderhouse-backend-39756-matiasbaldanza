@@ -1,5 +1,61 @@
 # Desafío clase 2 - Clases con ECMAScript y ECMAScript avanzado
 
+## Archivos
+
+```bash
+ProductManager.js       # ejercicio resuelto
+ProductManager.test.js  # suite de tests
+index.js                # borrador con pruebas
+```
+
+## Tests
+
+Armé una suite de tests usando Jest.
+
+### Para instalar:
+
+```bash
+npm install
+```
+
+o
+
+```bash
+pnpm install
+```
+
+### Para ejecutar tests:
+
+```bash
+npm test
+```
+
+o
+
+```bash
+pnpm test
+```
+
+Debería dar un resultado como el siguiente:
+
+```bash
+PASS desafio-clase-2/ProductManager.test.js
+ProductManager
+✓ clase inicializada devuelve un arreglo vacío (1 ms)
+✓ addProduct agrega un producto válido
+✓ addProduct valida los campos requeridos (24 ms)
+✓ addProduct valida código de producto único
+✓ getProducts devuelve todos los productos (1 ms)
+✓ getProductById devuelve un producto por id (1 ms)
+✓ getProductById devuelve "Not found" cuando se le pasa un id inexistente (1 ms)
+
+Test Suites: 1 passed, 1 total
+Tests: 7 passed, 7 total
+Snapshots: 0 total
+Time: 0.236 s, estimated 1 s
+Ran all test suites.
+```
+
 ## Consigna
 
 Realizar una clase “ProductManager” que gestione un conjunto de productos.

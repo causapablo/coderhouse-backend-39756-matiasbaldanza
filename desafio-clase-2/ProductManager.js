@@ -10,8 +10,9 @@ class ProductManager {
     #validateProduct(product) {
       const requiredFields = ['title', 'description', 'price', 'thumbnail', 'code', 'stock'];
       for (const field of requiredFields) {
-        if (!product.hasOwnProperty(field)) {
-          throw new Error(`Se requiere el campo '${field}'.`);
+        if (!product.hasOwnProperty(field) || product[field] === null || product[field] === undefined) {
+          console.log(`Se requiere el campo '${field}'`);
+          throw new Error(`Se requiere el campo '${field}'`);
         }
       }
   
