@@ -1,5 +1,10 @@
 # Desafío clase 2 - Clases con ECMAScript y ECMAScript avanzado
 
+- Curso: Programación Backend (NodeJS, 2023)
+- Comisión: 39755
+- Profesor: Alex Marín Mendez
+- Alumno: Matias Baldanza
+
 ## Archivos
 
 ```bash

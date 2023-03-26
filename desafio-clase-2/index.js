@@ -1,5 +1,12 @@
+/* 
+- Curso: Programación Backend (NodeJS, 2023)
+- Comisión: 39755
+- Profesor: Alex Marín Mendez
+- Alumno: Matias Baldanza
+- Entrega: Desafío clase 2 (2023-03-25)
+*/
+
 const ProductManager = require('./ProductManager');
-// import ProductManager from "./ProductManager";
 
 const sampleProduct = {
     title: 'producto prueba',
