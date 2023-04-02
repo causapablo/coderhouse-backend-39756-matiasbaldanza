@@ -33,7 +33,7 @@ Se agregaron los siguientes tests en `ProductMaanger.test.js`
 **updateProduct:**
 
 - 'deleteProduct devuelve "Product to be deleted not found" cuando se le pasa un id inexistente'
-- 'deleteProduct elimina el producto dado un id válido, y getProductById devuelve
+- 'luego que deleteProduct elimina un producto existente, getProductById devuelve "Not found"'
 
 ### Para instalar:
 
