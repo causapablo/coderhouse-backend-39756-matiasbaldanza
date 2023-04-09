@@ -7,6 +7,14 @@
 
 ## Desafío entregable clase 3 (2023-04-01)
 
+[Link](./desafio-clase-4-express/README-desafio-clase-4-express.md) a las instrucciones
+
+- Implementada lectura de archivos con promesas.
+- Implementado como servidor usando Express, con los siguientes endpoints:
+  -
+
+## Desafío entregable clase 3 (2023-04-01)
+
 [Link](./desafio-clase-3-manejo-archivos/desafio-clase-3.md) a las instrucciones
 
 Agregadas funciones **updateProduct** y **deleteProduct** más tests

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Endpoints - Desafío Clase 4 - Express - Matías Baldanza</title>
+</head>
+<body>
+    <h1>Desafío Clase 4 - Express - Matías Baldanza</h1>
+    <ul>
+        <li>Curso: Programación Backend (NodeJS, 2023)</li>
+        <li>Comisión: 39755</li>
+        <li>Profesor: Alex Marín Mendez</li>
+        <li>Alumno: Matias Baldanza</li>
+        <li>Entrega: Desafío clase 4 (2023-04-08)</li>
+    </ul>
+    <h2>API Endpoints</h2>
+    <h3>GET /products</h3>
+    <p>Devuelve la lista de todos los productos.</p>
+    <h4>Ejemplos:</h4>
+    <pre>
+GET /products
+GET /products?limit=5
+    </pre>
+    <p>Si se agrega el parámetro <code>"limit"</code> con un valor numérico, devuelve la cantidad de productos indicados <br>
+    Si el parámetro <code>"limit"</code> no se incluye o no es un número válido, el endpoint devolverá todos los productos existentes. <br>
+    Si el parámetro limit es un número negativo, se devuelven todos los productos menos el número indicado <br>
+    <em>(En un array de 40 productos, -30 devuelve los primeros 10 productos)</em>
+    </p>
+
+    <h3>GET /products/:id</h3>
+    <p>Devuelve un producto con el ID suministrado. Si el ID no existe, devuelve un error 404.</p>
+    <h4>Ejemplo:</h4>
+    <pre>
+GET /products/1
+Content-Type: application/json
+
+{
+    "id": 1,
+    "name": "Updated Product",
+    "price": 99.99
+}
+    </pre>
+</body>
+</html>

@@ -1,0 +1,364 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Taza de cerámica con diseño de unicornio",
+            "description": "Taza de cerámica con diseño de unicornio, perfecta para disfrutar de una deliciosa bebida caliente.",
+            "price": 10.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "UNI001",
+            "stock": 50
+        },
+        {
+            "id": 2,
+            "title": "Juego de sábanas de algodón egipcio",
+            "description": "Juego de sábanas de algodón egipcio de alta calidad, suave y cómodo al tacto. Disponible en varios tamaños y colores.",
+            "price": 89.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "SAB001",
+            "stock": 20
+        },
+        {
+            "id": 3,
+            "title": "Reloj de pulsera para hombre",
+            "description": "Reloj de pulsera para hombre con correa de cuero genuino y caja de acero inoxidable. Resistente al agua y con cronómetro.",
+            "price": 99.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "REL001",
+            "stock": 30
+        },
+        {
+            "id": 4,
+            "title": "Set de utensilios de cocina de acero inoxidable",
+            "description": "Set de utensilios de cocina de acero inoxidable con mango de silicona. Incluye cuchara, espátula, pinzas y más.",
+            "price": 39.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "UTE001",
+            "stock": 15
+        },
+        {
+            "id": 5,
+            "title": "Altavoz Bluetooth portátil",
+            "description": "Altavoz Bluetooth portátil con batería de larga duración y calidad de sonido superior. Conexión inalámbrica y entrada de auxiliar.",
+            "price": 49.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "ALT001",
+            "stock": 25
+        },
+        {
+            "id": 6,
+            "title": "Pendientes de oro blanco y diamantes",
+            "description": "Pendientes de oro blanco con diamantes en talla princesa. Perfectos para una ocasión especial.",
+            "price": 999.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "PEN001",
+            "stock": 5
+        },
+        {
+            "id": 7,
+            "title": "Bolso de cuero para mujer",
+            "description": "Bolso de cuero genuino para mujer con múltiples compartimentos y correa ajustable. Disponible en varios colores.",
+            "price": 129.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "BOL001",
+            "stock": 10
+        },
+        {
+            "id": 8,
+            "title": "Kit de herramientas para jardinería",
+            "description": "Kit de herramientas para jardinería que incluye pala, rastrillo, tijeras de podar y guantes de jardín. Ideal para principiantes.",
+            "price": 29.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "JAR001",
+            "stock": 12
+        },
+        {
+            "id": 9,
+            "title": "Cámara instantánea",
+            "description": "Cámara instantánea con impresión en papel fotográfico de tamaño 2x3. Perfecta para capturar y compartir momentos especiales.",
+            "price": 79.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "CAM001",
+            "stock": 18
+        },
+        {
+            "id": 10,
+            "title": "Set de cuchillos de cocina",
+            "description": "Set de cuchillos de cocina de alta calidad con mango ergonómico y hoja de acero inoxidable. Incluye varios tamaños y tipos de cuchillos.",
+            "price": 149.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "CUC001",
+            "stock": 8
+        },
+        {
+            "id": 11,
+            "title": "Juego de mesa de estrategia",
+            "description": "Juego de mesa de estrategia para 2-4 jugadores. Incluye tablero, fichas y reglas del juego.",
+            "price": 24.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "JUE001",
+            "stock": 22
+        },
+        {
+            "id": 12,
+            "title": "Lámpara de escritorio LED",
+            "description": "Lámpara de escritorio LED con múltiples niveles de intensidad y ángulos ajustables. Perfecta para estudiar o trabajar en casa.",
+            "price": 39.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "LAM001",
+            "stock": 30
+        },
+        {
+            "id": 13,
+            "title": "Pulsera de plata con dijes",
+            "description": "Pulsera de plata esterlina con dijes de diversos colores y formas. Perfecta para complementar cualquier outfit.",
+            "price": 49.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "PUL001",
+            "stock": 14
+        },
+        {
+            "id": 14,
+            "title": "Kit de maquillaje profesional",
+            "description": "Kit de maquillaje profesional que incluye sombras de ojos, labiales, rubores y más. Perfecto para maquilladores y aficionados al maquillaje.",
+            "price": 149.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "MAQ001",
+            "stock": 6
+        },
+        {
+            "id": 15,
+            "title": "Mochila de viaje",
+            "description": "Mochila de viaje resistente al agua con múltiples compartimentos y correa acolchada para mayor comodidad. Disponible en varios tamaños y colores.",
+            "price": 79.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "MOC001",
+            "stock": 16
+        },
+        {
+            "id": 16,
+            "title": "Cámara de acción deportiva",
+            "description": "Cámara de acción deportiva con grabación de video en alta definición y resistente al agua. Incluye accesorios para montaje en bicicleta, casco y más.",
+            "price": 129.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "CAM002",
+            "stock": 8
+        },
+        {
+            "id": 17,
+            "title": "Set de herramientas de mano",
+            "description": "Set de herramientas de mano que incluye martillo, destornilladores, llaves y más. Perfecto para realizar reparaciones en el hogar.",
+            "price": 49.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "HER001",
+            "stock": 20
+        },
+        {
+            "id": 18,
+            "title": "Bicicleta de montaña",
+            "description": "Bicicleta de montaña con cuadro de aluminio, suspensión delantera y frenos de disco hidráulicos. Disponible en varios tamaños.",
+            "price": 499.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "BIC001",
+            "stock": 4
+        },
+        {
+            "id": 19,
+            "title": "Pantalones de yoga",
+            "description": "Pantalones de yoga de alta calidad y ajuste cómodo. Disponible en varios colores y tamaños.",
+            "price": 29.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "YOG001",
+            "stock": 28
+        },
+        {
+            "id": 20,
+            "title": "Laptop para trabajo y entretenimiento",
+            "description": "Laptop para trabajo y entretenimiento con procesador de última generación, memoria RAM y almacenamiento de alta capacidad. Disponible en varios modelos y colores.",
+            "price": 899.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "LAP001",
+            "stock": 6
+        },
+        {
+            "id": 21,
+            "title": "Set de pinceles de maquillaje",
+            "description": "Set de pinceles de maquillaje de alta calidad con mango de madera y cerdas suaves. Incluye pinceles para base, polvos, rubor y más.",
+            "price": 39.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "PIN001",
+            "stock": 18
+        },
+        {
+            "id": 22,
+            "title": "Mesa de ping pong",
+            "description": "Mesa de ping pong plegable con red incluida. Perfecta para jugar en interiores o exteriores.",
+            "price": 299.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "PIN002",
+            "stock": 5
+        },
+        {
+            "id": 23,
+            "title": "Lentes de sol polarizados",
+            "description": "Lentes de sol polarizados con protección UV400 y marco de metal resistente. Disponible en varios colores.",
+            "price": 59.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "LEN001",
+            "stock": 15
+        },
+        {
+            "id": 24,
+            "title": "Smartwatch con monitor de actividad",
+            "description": "Smartwatch con monitor de actividad y notificaciones de llamadas y mensajes. Disponible en varios modelos y colores.",
+            "price": 149.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "RELO001",
+            "stock": 10
+        },
+        {
+            "id": 25,
+            "title": "Plancha de pelo profesional",
+            "description": "Plancha de pelo profesional con placas de cerámica y tecnología de iones negativos. Perfecta para lograr un cabello liso y brillante.",
+            "price": 79.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "PLA001",
+            "stock": 12
+        },
+        {
+            "id": 26,
+            "title": "Juego de tazas de café",
+            "description": "Juego de tazas de café de porcelana con diseño minimalista y elegante. Incluye platillos a juego.",
+            "price": 24.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "TAZ001",
+            "stock": 30
+        },
+        {
+            "id": 27,
+            "title": "Laptop para gaming",
+            "description": "Laptop para gaming con procesador de alta velocidad, tarjeta gráfica dedicada y pantalla de alta definición. Disponible en varios modelos y colores.",
+            "price": 1299.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "GAM001",
+            "stock": 4
+        },
+        {
+            "id": 28,
+            "title": "Batería externa para dispositivos móviles",
+            "description": "Batería externa para dispositivos móviles con capacidad de carga rápida y múltiples puertos de entrada y salida. Disponible en varios tamaños y capacidades.",
+            "price": 39.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "BAT001",
+            "stock": 20
+        },
+        {
+            "id": 29,
+            "title": "Juego de cubiertos de acero inoxidable",
+            "description": "Juego de cubiertos de acero inoxidable con diseño clásico y elegante. Incluye tenedores, cuchillos y cucharas para seis personas.",
+            "price": 49.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "CUB001",
+            "stock": 16
+        },
+        {
+            "id": 30,
+            "title": "Botella de agua reutilizable",
+            "description": "Botella de agua reutilizable con diseño moderno y capacidad de 500 ml. Fabricada con materiales ecológicos y libres de BPA.",
+            "price": 19.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "BOT001",
+            "stock": 25
+        },
+        {
+            "id": 31,
+            "title": "Máquina de espresso",
+            "description": "Máquina de espresso con capacidad para preparar una o dos tazas a la vez. Incluye vaporizador de leche para preparar cappuccinos y lattes.",
+            "price": 299.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "ESP001",
+            "stock": 8
+        },
+        {
+            "id": 32,
+            "title": "Set de brochas de maquillaje",
+            "description": "Set de brochas de maquillaje profesionales con cerdas suaves y mango ergonómico. Incluye brochas para base, sombras, rubor y más.",
+            "price": 59.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "BRO001",
+            "stock": 12
+        },
+        {
+            "id": 33,
+            "title": "Juego de toallas de baño",
+            "description": "Juego de toallas de baño de algodón suave y absorbente. Incluye toallas de mano y baño en varios tamaños y colores.",
+            "price": 39.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "TOA001",
+            "stock": 18
+        },
+        {
+            "id": 34,
+            "title": "Funda de piel para smartphone",
+            "description": "Funda de piel genuina para smartphone con diseño elegante y resistente al desgaste. Disponible en varios tamaños y colores.",
+            "price": 29.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "FUN001",
+            "stock": 30
+        },
+        {
+            "id": 35,
+            "title": "Set de herramientas eléctricas",
+            "description": "Set de herramientas eléctricas que incluye taladro, sierra circular y linterna. Perfecto para realizar proyectos de bricolaje en casa.",
+            "price": 199.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "HER002",
+            "stock": 6
+        },
+        {
+            "id": 36,
+            "title": "Guitarra acústica",
+            "description": "Guitarra acústica con cuerdas de acero y cuerpo de madera de alta calidad. Disponible en varios acabados.",
+            "price": 299.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "GUA001",
+            "stock": 8
+        },
+        {
+            "id": 37,
+            "title": "Set de vasos de whisky",
+            "description": "Set de vasos de whisky de cristal con diseño clásico y elegante. Incluye seis vasos en una caja de regalo.",
+            "price": 49.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "VAS001",
+            "stock": 20
+        },
+        {
+            "id": 38,
+            "title": "Bicicleta eléctrica",
+            "description": "Bicicleta eléctrica con motor de alta velocidad y batería de larga duración. Disponible en varios tamaños y colores.",
+            "price": 999.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "BIC002",
+            "stock": 3
+        },
+        {
+            "id": 39,
+            "title": "Set de maletas para viaje",
+            "description": "Set de maletas para viaje con diseño moderno y resistente al agua. Incluye maletas de diferentes tamaños para satisfacer todas sus necesidades de viaje.",
+            "price": 249.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "MAL001",
+            "stock": 5
+        },
+        {
+            "id": 40,
+            "title": "Telescopio astronómico",
+            "description": "Telescopio astronómico con lentes de alta calidad y montura ajustable. Perfecto para observar el cielo nocturno.",
+            "price": 399.99,
+            "thumbnail": "/public/assets/base_thumbnail.jpg",
+            "code": "TEL001",
+            "stock": 2
+        }
+    ]
+}
