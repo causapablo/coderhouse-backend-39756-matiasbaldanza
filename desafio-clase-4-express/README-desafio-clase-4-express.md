@@ -12,7 +12,7 @@
 - Implementada lectura de archivo json usando promesas
 - Agregados los siguientes endpoints:
   - `/` <br/>
-    _Un archivo HTML con la descripción de los endpoints_
+    _Un [archivo HTML](./public/index.html) con la descripción de los endpoints_
   - `GET /products` <br/>
     _incluye el parámetro limit para limitar la lista de resultados_
   - `GET /product/:pid` <br/>
