@@ -8,6 +8,7 @@
 
 const express = require('express');
 const fs = require('./src/fileAccess');
+const path = require('path');
 const ProductManager = require('./src/ProductManager');
 
 const products = async () => {
@@ -32,7 +33,7 @@ const server = app.listen(PORT, async () => {
 server.on("error", error => console.log(`Error en servidor ${error}`));
 
 app.get('/', (req, res) => {
-    res.send('Bienvenido a mi servidor');
+    res.sendFile(path.join(__dirname, './public/index.html'));
 });
 
 app.get('/products', (req, res) => {    
