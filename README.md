@@ -5,13 +5,18 @@
 - Profesor: Alex Marín Mendez
 - Alumno: Matias Baldanza
 
-## Desafío entregable clase 3 (2023-04-01)
+## Desafío entregable clase 4 - Express (2023-04-08)
 
-[Link](./desafio-clase-4-express/README-desafio-clase-4-express.md) a las instrucciones
+[Link](./desafio-clase-4-express/README-desafio-clase-4-express.md) al readme de esta entrega
 
 - Implementada lectura de archivos con promesas.
 - Implementado como servidor usando Express, con los siguientes endpoints:
-  -
+  - `/` <br/>
+    _Un archivo HTML con la descripción de los endpoints_
+  - `GET /products` <br/>
+    _incluye el parámetro limit para limitar la lista de resultados_
+  - `GET /product/:pid` <br/>
+    _recibe por queryParams el pid (Product ID) y devuelve el producto solicitado_
 
 ## Desafío entregable clase 3 (2023-04-01)
 
