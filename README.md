@@ -5,6 +5,14 @@
 - Profesor: Alex Marín Mendez
 - Alumno: Matias Baldanza
 
+## Desafio entregable clase 5 - Websockets y Handlebars (2023-04-22)
+
+[Link](./desafio-clase-5-websockets-handlebars/README-desafio-websockets-handlebars.md) al readme de esta entrega
+
+- Configurado proyecto para integrar Handlebars como motor de plantillas
+- Creada vista home.handlebars
+- Creado endpoint /realtimeproducts que accede a la lista de productos via websockets
+
 ## Desafío entregable clase 4 - Express (2023-04-08)
 
 [Link](./desafio-clase-4-express/README-desafio-clase-4-express.md) al readme de esta entrega
